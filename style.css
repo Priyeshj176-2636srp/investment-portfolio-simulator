@@ -1,0 +1,57 @@
+body{
+font-family:Arial;
+background:#f4f6f9;
+margin:0;
+padding:20px;
+text-align:center;
+}
+.container{
+background:white;
+padding:20px;
+border-radius:10px;
+width:90%;
+margin:auto;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+input{
+padding:8px;
+margin:5px;
+}
+button{
+padding:10px;
+background:#007bff;
+color:white;
+border:none;
+cursor:pointer;
+}
+table{
+margin:auto;
+border-collapse:collapse;
+width:80%;
+margin-top:20px;
+}
+th,td{
+border:1px solid gray;
+padding:10px;
+}
+.profit{
+color:green;
+font-weight:bold;
+}
+.loss{
+color:red;
+font-weight:bold;
+}
+.dark{
+background:#121212;
+color:white;
+}
+.dark .container{
+background:#1e1e1e;
+}
+.dark table{
+color:white;
+}
+.dark th,.dark td{
+border:1px solid #555;
+}
