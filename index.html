@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Investment Portfolio Simulator</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<button onclick="toggleDark()">Toggle Dark Mode</button>
+<div class="container">
+<h1>Investment Portfolio Simulator</h1>
+<div class="form">
+<input id="name" placeholder="Stock Name">
+<input id="quantity" type="number" placeholder="Quantity">
+<input id="buy" type="number" placeholder="Buy Price">
+<input id="current" type="number" placeholder="Current Price">
+<button onclick="addStock()">Add Investment</button>
+</div>
+<h2>Portfolio</h2>
+<table>
+<thead>
+<tr>
+<th>Stock</th>
+<th>Investment</th>
+<th>Current Value</th>
+<th>Profit / Loss</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody id="tableBody"></tbody>
+</table>
+<h2>Total Portfolio Value: ₹<span id="total">0</span></h2>
+<h2>Portfolio Risk Score: <span id="risk"></span></h2>
+<h2>Portfolio Distribution</h2>
+<canvas id="portfolioChart"></canvas>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
