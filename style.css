@@ -1,57 +1,60 @@
 body{
 font-family:Arial;
-background:#f4f6f9;
+background:#111;
+color:white;
+text-align:center;
 margin:0;
 padding:20px;
-text-align:center;
 }
 .container{
-background:white;
-padding:20px;
-border-radius:10px;
-width:90%;
+max-width:1000px;
 margin:auto;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+background:#1b1b1b;
+padding:30px;
+border-radius:10px;
+}
+h1{
+margin-bottom:30px;
+}
+.inputs{
+display:flex;
+gap:10px;
+justify-content:center;
+flex-wrap:wrap;
+margin-bottom:20px;
 }
 input{
-padding:8px;
-margin:5px;
+padding:10px;
+width:150px;
+border-radius:5px;
+border:none;
 }
 button{
-padding:10px;
+padding:10px 15px;
 background:#007bff;
 color:white;
 border:none;
+border-radius:5px;
 cursor:pointer;
 }
+button:hover{
+background:#0056b3;
+}
 table{
-margin:auto;
-border-collapse:collapse;
-width:80%;
+width:100%;
 margin-top:20px;
+border-collapse:collapse;
 }
 th,td{
-border:1px solid gray;
-padding:10px;
+padding:12px;
+border:1px solid #444;
 }
-.profit{
-color:green;
-font-weight:bold;
-}
-.loss{
-color:red;
-font-weight:bold;
+.chartBox{
+width:400px;
+height:400px;
+margin:30px auto;
 }
 .dark{
-background:#121212;
-color:white;
-}
-.dark .container{
-background:#1e1e1e;
-}
-.dark table{
-color:white;
-}
-.dark th,.dark td{
-border:1px solid #555;
+background:white;
+color:black;
 }
