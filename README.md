@@ -1,42 +1,46 @@
-# 📊 Investment Portfolio Simulator
-
-A web-based **investment portfolio tracker** that allows users to simulate stock investments, calculate profit/loss, and visualize portfolio distribution.
-
-This project demonstrates **frontend development and financial data simulation using JavaScript**.
+# Investment Portfolio Simulator
 
 ---
 
-## 🚀 Live Demo
+**Overview**
 
-Once deployed using GitHub Pages, the project can be accessed here:
+The Investment Portfolio Simulator is a web-based application that allows users to simulate stock investments and track their portfolio performance. Users can add investments, calculate profit or loss, visualize portfolio distribution, and analyze the overall portfolio risk.
 
-🔗 https://priyeshj176-2636srp.github.io/investment-portfolio-simulator/
-
----
-
-## ✨ Features
-
-* ➕ Add stock investments
-* 📈 Automatic **profit / loss calculation**
-* 🧾 Track **total portfolio value**
-* 🗑 Delete investments
-* 📊 **Portfolio distribution chart** using Chart.js
-* ⚠ **Portfolio risk score calculation**
-* 🌙 **Dark mode toggle**
-* 💾 Data persistence using **browser Local Storage**
+This project demonstrates frontend development and financial data simulation using JavaScript.
 
 ---
 
-## 🛠 Technologies Used
+**Live Demo**
 
-* **HTML**
-* **CSS**
-* **JavaScript**
-* **Chart.js** (for portfolio visualization)
+After deployment using GitHub Pages, the project can be accessed here:
+
+https://priyeshj176-2636srp.github.io/investment-portfolio-simulator/
 
 ---
 
-## 📁 Project Structure
+**Features**
+
+* Add stock investments
+* Automatic profit and loss calculation
+* Track total portfolio value
+* Delete investments
+* Portfolio distribution chart using Chart.js
+* Portfolio risk score calculation
+* Dark mode toggle
+* Data persistence using browser Local Storage
+
+---
+
+**Technologies Used**
+
+* HTML
+* CSS
+* JavaScript
+* Chart.js for data visualization
+
+---
+
+**Project Structure**
 
 ```
 investment-portfolio-simulator
@@ -49,9 +53,9 @@ investment-portfolio-simulator
 
 ---
 
-## ▶️ How to Run the Project Locally
+**How to Run the Project Locally**
 
-1. Clone the repository:
+1. Clone the repository
 
 ```
 git clone https://github.com/Priyeshj176-2636srp/investment-portfolio-simulator.git
@@ -59,36 +63,40 @@ git clone https://github.com/Priyeshj176-2636srp/investment-portfolio-simulator.
 
 2. Open the project folder.
 
-3. Double click **index.html**.
+3. Double click the file named index.html.
 
-4. The application will run in your browser.
-
----
-
-## 🌐 Deployment
-
-This project is deployed using **GitHub Pages**.
-
-Repository Link:
-🔗 https://github.com/Priyeshj176-2636srp/investment-portfolio-simulator
+4. The application will open in your web browser.
 
 ---
 
-## 🎓 Author
+**Deployment**
+
+This project can be deployed online using GitHub Pages.
+
+Steps:
+
+1. Upload the project to a GitHub repository.
+2. Open repository settings.
+3. Navigate to the Pages section.
+4. Select the main branch as the deployment source.
+5. Save the settings and GitHub will generate a live website link.
+
+---
+
+**Author**
 
 **Priyesh Jaiswal**
-
-B.Tech – Computer Science & Engineering
-
+B.Tech – Computer Science and Engineering
 Birla Institute of Technology Mesra, India
 
 ---
 
-## 📌 Purpose of the Project
+**Purpose of the Project**
 
-This project was developed to demonstrate:
+This project was created to demonstrate:
 
-* JavaScript programming
-* Financial calculations
-* Data visualization
-* Interactive web UI development
+* JavaScript programming and logic building
+* Financial calculations and data handling
+* Data visualization using charts
+* Interactive user interface development
+
